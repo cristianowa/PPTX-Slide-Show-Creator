@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTSlideShowCreator", "PPTSlideShowCreator\PPTSlideShowCreator.csproj", "{F2C3121A-F96A-49C2-89ED-F5666C5DE10F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTSlideShowCreatorInstaller", "PPTSlideShowCreatorInstaller\PPTSlideShowCreatorInstaller.csproj", "{388A1A85-DF61-4599-AC29-9F132C4EBC47}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PPTSlideShowCreatorInstaller", "PPTSlideShowCreatorInstaller\PPTSlideShowCreatorInstaller.vdproj", "{1548086E-55DA-4181-B44F-3DEA948B3C7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,8 @@ Global
 		{F2C3121A-F96A-49C2-89ED-F5666C5DE10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C3121A-F96A-49C2-89ED-F5666C5DE10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C3121A-F96A-49C2-89ED-F5666C5DE10F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{388A1A85-DF61-4599-AC29-9F132C4EBC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{388A1A85-DF61-4599-AC29-9F132C4EBC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{388A1A85-DF61-4599-AC29-9F132C4EBC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{388A1A85-DF61-4599-AC29-9F132C4EBC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1548086E-55DA-4181-B44F-3DEA948B3C7D}.Debug|Any CPU.ActiveCfg = Debug
+		{1548086E-55DA-4181-B44F-3DEA948B3C7D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
