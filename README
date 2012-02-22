@@ -1,0 +1,6 @@
+This project is based in a MSDN for open XML SDK. If you want to compile it, you have to install the Open XML SDK. It have some problems with too many files because it uses the same thread for everything.
+
+Any doubts,suggestions and critics write
+cristianowerneraraujo at gmail.com
+
+
