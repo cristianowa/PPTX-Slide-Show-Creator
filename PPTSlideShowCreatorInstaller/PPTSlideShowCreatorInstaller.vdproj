@@ -112,12 +112,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EFDD3094B7CC0CCCB6C7AA2D5AF33FB5"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_3CB717F086604399954C2331A2BD4CFF"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -157,6 +151,12 @@
         "OwnerKey" = "8:_2C092FFEBD45FECA41683E07B02C3EB4"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EFDD3094B7CC0CCCB6C7AA2D5AF33FB5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -175,6 +175,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -191,6 +212,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -493,14 +522,14 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Slide Show Creator"
-        "ProductCode" = "8:{E6C96385-682B-447E-A0B4-773CA229622A}"
-        "PackageCode" = "8:{4DD712E5-6E1F-46A4-8843-62E00034AE27}"
+        "ProductCode" = "8:{E6900E76-9461-46AE-958C-7EA1CC24D476}"
+        "PackageCode" = "8:{BD18571E-D388-43DC-835D-2E95426DBF41}"
         "UpgradeCode" = "8:{2557508F-7B1A-4FBC-AD45-A267B3A16292}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:Cristiano W. Araújo"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -1084,7 +1113,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3CB717F086604399954C2331A2BD4CFF"
             {
-            "SourcePath" = "8:..\\PPTSlideShowCreator\\obj\\Release\\PPTSlideShowCreator.exe"
+            "SourcePath" = "8:..\\PPTSlideShowCreator\\obj\\Debug\\PPTSlideShowCreator.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9477FE70B2854E0FA78AA99B369E4D7E"

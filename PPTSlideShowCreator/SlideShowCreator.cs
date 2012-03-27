@@ -19,11 +19,12 @@ using System.Threading;
 class SlideShowCreator
 {
     string presentationTemplate = "PresentationTemplate.pptx";
+    string tempFolder;
 
     void createTemplate()
     {
-
-        File.WriteAllBytes(presentationTemplate, Resources.PresentationTemplate);
+        tempFolder = Path.GetTempPath();
+        File.WriteAllBytes(tempFolder+presentationTemplate, Resources.PresentationTemplate);
     }
     public SlideShowCreator()
     {
@@ -43,7 +44,7 @@ class SlideShowCreator
 
         // Make a copy of the template presentation. This will throw an exception if the template 
         // presentation does not exist.
-        File.Copy(presentationTemplate, newPresentation, true);
+        File.Copy(tempFolder+presentationTemplate, newPresentation, true);
 
         // Get the image files in the image folder.
         
